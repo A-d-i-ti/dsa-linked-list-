@@ -7,6 +7,16 @@ But we also another option of vector which double its size on every complete of 
 ### Linked list- linear data structure containing many nodes and nodes contain data as well as address of the next node. Basically memory created in heap on run time. So, we used linked list as it shrink or grow on run time in this way it is best way of memory management i.e. no memory wastage. Also , in linked list we don't have to shift the element for insertion or deletion .
 
 ### Linked list are of three types- 1.Singly linked list 2.double linked list 3.circular linked list
+### ## why linked lists ?
+
+Memory and the capacity of an array remains fixed.In case of linked lists , we can kmeep adding and removing elements without any capacity contraints.
+
+## drawbacks of linked lists ?
+
+1. Extra memory space for ponters is required (for every node 1 pointer is needed).
+2. random access not allowed as elements are not stored in contiguous memory locations.
+
+   
 # c-language-important-terms
 ### ARRAY-> POINTERS -> STRUCTURE -> LINKED LIST -> DOUBLE-LINKED LIST -> TREE(BINARY-TREE,AVL-TREE) -> GRAPH
 ## 1.ARRAY-An array is a collection of items of same data type stored at contiguous memory locations. 
